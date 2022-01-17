@@ -41,7 +41,6 @@ window.onload = function init()
     // last point and a randomly chosen vertex
 
     for ( var i = 0; points.length < NumPoints; ++i ) {
-        // var j = Math.floor(Math.floor(Math.random() * 3) * 0.9);
         var j = Math.random() * 100;
         if (j <= 90) {
             j = 0;
